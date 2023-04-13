@@ -5,12 +5,48 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>로그인 페이지</title>
+    <style>
+        .mytitle {
+            background-color: blue;
+            /* 맨 처음에 선언해줘야한다. */
+            width: 300px;
+            height: 200px;
+
+            border-radius: 10px; 
+            color: white;
+            text-align: center;
+            /* 둥글게 */
+
+            /* padding: 30px 0px 0px 0px; */
+            padding-top: 30px;
+
+            background-image: url('https://www.ancient-origins.net/sites/default/files/field/image/Agesilaus-II-cover.jpg');
+            background-position: center;
+            background-size: cover;
+            /* 기본국룰 3줄, url, 이미지의 가운데, 꽉차게 */
+        }
+        .mybtn {
+            margin: 20px 20px 20px 20px;
+            /* 위부터 시계방향 */
+        }
+        .mytxt {
+            color: green;
+        }
+        .wrap {
+            width: 300px;
+            margin: 20px auto 0px auto;
+        }
+    </style>
 </head>
 <body>
-    <h1>로그인 페이지</h1>
-    <hr>
-    <p>ID: <input type="text"></p>
-    <p>PW: <input type="text"></p>
-    <button>로그인하기</button>
+    <div class="wrap">
+        <div class="mytitle">
+            <h1>로그인 페이지</h1>
+            <h5>아이디, 비밀번호를 입력하세요</h5>
+        </div>
+        <p class="mytxt">ID: <input type="text"></p>
+        <p class="mytxt">PW: <input type="text"></p>
+        <button class="mybtn">로그인하기</button>
+    </div>
 </body>
 </html>
