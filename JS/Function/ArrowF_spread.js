@@ -51,5 +51,13 @@ console.log(Math.max(1, ...arr1, 2, ...arr2, 25)); // 25
 
 
 // 4) 배열과 객체의 복사본 만들기
+let arr = [1,2,3];
+let arrCopy = [...arr];
 
+console.log(JSON.stringify(arr) === JSON.stringify(arrCopy)); // T 요소가 같다
+
+console.log(arr === arrCopy); // F 참조가 다르다
+arr.push(4);
+alert(arr); // 1,2,3,4
+alert(arrCopy); // 1,2,3
 
