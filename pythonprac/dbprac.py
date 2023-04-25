@@ -1,3 +1,8 @@
+from pymongo import MongoClient
+# password 넣어주어야 함
+client = MongoClient(
+    'mongodb+srv://my_atlas_user:<password>@cluster0.4ytaf.mongodb.net/?retryWrites=true&w=majority')
+db = client.dbsparta
 
 # 저장 - 예시
 doc = {'name': 'bobby', 'age': 21}

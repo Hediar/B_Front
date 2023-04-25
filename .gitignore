@@ -1,0 +1,9 @@
+# 가상환경
+pythonprac/venv/
+projects/01.prac/venv/
+projects/02.mars/venv/
+projects/03.pedia/venv/
+projects/04.bucket/venv/
+projects/05.fan/venv/
+
+projects/mongo.py
