@@ -6,4 +6,10 @@ projects/03.pedia/venv/
 projects/04.bucket/venv/
 projects/05.fan/venv/
 
+# mongodb url
 projects/mongo.py
+
+key.txt
+
+# 배포할거 제외
+projects/05.fan/deploy/
